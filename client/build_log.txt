@@ -1,0 +1,20 @@
+﻿
+> client@0.0.0 build
+> tsc -b && vite build
+
+src/App.tsx(13,51): error TS2503: Cannot find namespace 'JSX'.
+src/components/Layout.tsx(4,10): error TS6133: 'Map' is declared but its value is never read.
+src/components/Layout.tsx(5,1): error TS6133: 'clsx' is declared but its value is never read.
+src/pages/CreateTrip.tsx(26,9): error TS2322: Type 'Resolver<{ title: string; startDate: string; endDate: string; description?: string | undefined; budget?: number | undefined; isPublic?: boolean | undefined; }, any, { title: string; startDate: string; endDate: string; budget: number; isPublic: boolean; description?: string | undefined; }>' is not assignable to type 'Resolver<{ title: string; startDate: string; endDate: string; budget: number; isPublic: boolean; description?: string | undefined; }, any, { title: string; startDate: string; endDate: string; budget: number; isPublic: boolean; description?: string | undefined; }>'.
+  Types of parameters 'options' and 'options' are incompatible.
+    Type 'ResolverOptions<{ title: string; startDate: string; endDate: string; budget: number; isPublic: boolean; description?: string | undefined; }>' is not assignable to type 'ResolverOptions<{ title: string; startDate: string; endDate: string; description?: string | undefined; budget?: number | undefined; isPublic?: boolean | undefined; }>'.
+      Type 'number | undefined' is not assignable to type 'number'.
+        Type 'undefined' is not assignable to type 'number'.
+src/pages/CreateTrip.tsx(47,42): error TS2345: Argument of type '(data: TripInputs) => Promise<void>' is not assignable to parameter of type 'SubmitHandler<TFieldValues>'.
+  Types of parameters 'data' and 'data' are incompatible.
+    Type 'TFieldValues' is not assignable to type '{ title: string; startDate: string; endDate: string; budget: number; isPublic: boolean; description?: string | undefined; }'.
+      Type 'FieldValues' is missing the following properties from type '{ title: string; startDate: string; endDate: string; budget: number; isPublic: boolean; description?: string | undefined; }': title, startDate, endDate, budget, isPublic
+src/pages/Dashboard.tsx(4,10): error TS1484: 'Trip' is a type and must be imported using a type-only import when 'verbatimModuleSyntax' is enabled.
+src/pages/TripDetails.tsx(5,10): error TS1484: 'Trip' is a type and must be imported using a type-only import when 'verbatimModuleSyntax' is enabled.
+src/store/auth.store.ts(3,10): error TS1484: 'User' is a type and must be imported using a type-only import when 'verbatimModuleSyntax' is enabled.
+src/store/auth.store.ts(4,1): error TS6133: 'api' is declared but its value is never read.

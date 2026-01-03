@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-white text-gray-800 font-body antialiased;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-heading text-secondary font-bold;
+  }
+}
+
+@layer utilities {
+  .text-shadow {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+}
+
+/* Luxury Component Classes */
+.btn-gold {
+  @apply bg-primary text-white font-bold uppercase tracking-wider px-6 py-3 transition-all hover:bg-yellow-600 active:scale-95 text-sm;
+}
+
+.btn-gold:hover {
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.btn-dark {
+  @apply bg-secondary text-white font-bold uppercase tracking-wider px-6 py-3 transition-all hover:bg-gray-900 active:scale-95 text-sm;
+}
+
+.btn-dark:hover {
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+
+.input-luxury {
+  @apply w-full px-4 py-3 border border-gray-200 focus:border-primary focus:ring-1 focus:ring-primary outline-none transition-all bg-white/95 text-gray-700 placeholder-gray-400 font-body;
+}
+
+.card-luxury {
+  @apply bg-white p-6 transition-all duration-300 border border-gray-100;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+}
+
+.card-luxury:hover {
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}

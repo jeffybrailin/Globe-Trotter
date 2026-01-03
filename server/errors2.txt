@@ -1,0 +1,5 @@
+﻿src/controllers/auth.controller.ts(44,65): error TS2339: Property 'errors' does not exist on type 'ZodError<unknown>'.
+src/controllers/auth.controller.ts(71,65): error TS2339: Property 'errors' does not exist on type 'ZodError<unknown>'.
+src/controllers/itinerary.controller.ts(44,94): error TS2339: Property 'errors' does not exist on type 'ZodError<unknown>'.
+src/controllers/itinerary.controller.ts(88,94): error TS2339: Property 'errors' does not exist on type 'ZodError<unknown>'.
+src/controllers/trips.controller.ts(43,65): error TS2339: Property 'errors' does not exist on type 'ZodError<unknown>'.
