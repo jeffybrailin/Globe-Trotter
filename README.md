@@ -1,10 +1,10 @@
-# 🌍 GlobeTrotter
+#  GlobeTrotter
 
 **GlobeTrotter** is a modern, AI-powered travel planning application designed with a **premium luxury aesthetic**. It helps travelers creates detailed itineraries, manage budgets, and discover new destinations with style.
 
 ![Luxury Theme Preview](https://images.unsplash.com/photo-1501785888041-af3ef285b470?q=80&w=2070)
 
-## ✨ Features
+##  Features
 
 *   **Luxury UI/UX**: A completely redesigned interface featuring a **Gold (`#C5A065`) & Dark Slate** palette, 'Playfair Display' typography, and elegant micro-interactions.
 *   **Trip Wizard**: A step-by-step flow to create trips, including scope (Domestic/International), dates, and budget.
@@ -13,7 +13,7 @@
 *   **Budget Tracking**: Real-time visualization of your trip costs vs. your total budget.
 *   **Travel Personas**: Select traveler types (Solo, Family, Adventure, Luxury) for tailored experiences.
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 ### Frontend
 *   **React** (Vite)
@@ -97,7 +97,7 @@ The application successfully delivers a premium user experience:
     ```
     *Client runs on port 5173*
 
-## 🎨 Theme Customization
+##  Theme Customization
 
 The luxury theme is centrally managed in `client/tailwind.config.js`. You can adjust the **Primary Gold** or **Secondary Dark** colors there to fit your brand.
 
@@ -108,9 +108,4 @@ colors: {
 }
 ```
 
-## 🤝 Contributing
 
-Contributions are welcome! Please feel free to submit a Pull Request.
-
----
-*Built with ❤️ by [Jeffy Brailin](https://github.com/jeffybrailin)*
