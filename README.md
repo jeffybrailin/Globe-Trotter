@@ -1,8 +1,7 @@
 #  GlobeTrotter
 
-**GlobeTrotter** is a modern, AI-powered travel planning application designed with a **premium luxury aesthetic**. It helps travelers creates detailed itineraries, manage budgets, and discover new destinations with style.
+**GlobeTrotter** is a modern, travel planning application designed with a **premium luxury aesthetic**. It helps travelers creates detailed itineraries, manage budgets, and discover new destinations with style.
 
-![Luxury Theme Preview](https://images.unsplash.com/photo-1501785888041-af3ef285b470?q=80&w=2070)
 
 ##  Features
 
