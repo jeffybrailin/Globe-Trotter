@@ -42,7 +42,7 @@ The development of GlobeTrotter followed a structured, iterative approach:
     *   Integrated the **City Search API** using a static curated list of 50+ global destinations.
     *   Implemented the Trip Wizard logic to handle multi-step form state.
 
-3.  **Phase 3: The Luxury Pivot **
+3.  **Phase 3: The Luxury Pivot**
     *   *Challenge*: The initial UI was Anime-themed (Pink/Sakura).
     *   *Solution*: Completely refactored the design system to a Premium Aesthetic.
     *   *Changes*: Implemented 'Playfair Display' fonts, Gold/Dark colors, and the Hero Search component.
