@@ -107,5 +107,9 @@ colors: {
     secondary: '#1F2937', // Dark Slate
 }
 ```
+## Login Page:
+<img width="1911" height="946" alt="image" src="https://github.com/user-attachments/assets/3f791821-93f5-488a-94a1-75c06524c452" />
+
+
 
 
